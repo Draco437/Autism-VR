@@ -1,0 +1,26 @@
+{
+  "name": "autism-vr",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000A\u0000u\u0000t\u0000i\u0000s\u0000m\u0000-\u0000V\u0000R\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "backend": "cd backend && python manage.py runserver",
+    "frontend": "cd frontend && npm start",
+    "celery": "cd backend && celery -A main worker --loglevel=info --pool=solo",
+    "dev": "concurrently --kill-others-on-fail \"npm run backend\" \"npm run frontend\" \"npm run celery\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Draco437/Autism-VR.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Draco437/Autism-VR/issues"
+  },
+  "homepage": "https://github.com/Draco437/Autism-VR#readme",
+  "devDependencies": {
+    "concurrently": "^10.0.5"
+  }
+}
