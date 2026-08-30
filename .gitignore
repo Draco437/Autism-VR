@@ -1,1 +1,19 @@
 /node_modules
+
+# Unity auto-generated cache & temp folders
+unity-vr/Library/
+unity-vr/Temp/
+unity-vr/Obj/
+unity-vr/Build/
+unity-vr/Builds/
+unity-vr/Logs/
+unity-vr/UserSettings/
+unity-vr/MemoryCaptures/
+
+# Unity IDE solution files
+unity-vr/*.csproj
+unity-vr/*.unityproj
+unity-vr/*.sln
+unity-vr/*.slnx
+unity-vr/.vsconfig
+unity-vr/.vs/
